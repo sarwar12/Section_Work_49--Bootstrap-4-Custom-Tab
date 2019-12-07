@@ -1,0 +1,54 @@
+/* Main CSS Start */
+/**{
+	margin:0 ;
+	padding: 0;
+}*/
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-size: 18px;
+	line-height: 2;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:hover{
+	text-decoration: none;
+}
+/* Main CSS Stop */
+/* Tab section Start */
+.section-padding{
+	padding: 100px 0;
+}
+.tab-list {
+  border-bottom: 2px solid #e0e0e0;
+  margin: 0 0 30px;
+  padding: 0;
+  list-style: none;
+}
+.tab-list li {
+  display: inline-block;
+}
+.tab-list li a {
+  display: block;
+  position: relative;
+  color: #666;
+  padding: 10px 20px;
+}
+.tab-list li.active a{
+  color: #f92f4c;
+}
+.tab-list li.active a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 100%;
+  background: #f92f4c;
+  z-index: 2;
+}
+/* Tab section Stop */
